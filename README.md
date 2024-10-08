@@ -1,9 +1,9 @@
 
 #Objectifs
-- [] Concevoir une interface utilisateur esthétique et fonctionnelle.
-- [] Produire une structure HTML cohérente, en respectant la sémantique et les recommandations du W3C.
-- [] Rendre la page accessible et adaptable sur tous les supports (responsive design).
-- [] Optimiser la page pour le référencement naturel.
+- Concevoir une interface utilisateur esthétique et fonctionnelle.
+- Produire une structure HTML cohérente, en respectant la sémantique et les recommandations du W3C.
+- Rendre la page accessible et adaptable sur tous les supports (responsive design).
+- Optimiser la page pour le référencement naturel.
 #Contenu Requis
 La landing page doit contenir les éléments suivants :
 1. **En-tête** : Un logo, et un menu de navigation vers différentes sections de la page.
