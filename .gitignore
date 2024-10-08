@@ -1,0 +1,4 @@
+# ignorer le dossier node_modules
+/node_modules
+# ignorer les fichiers .json
+/*.json
