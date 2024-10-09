@@ -7,8 +7,8 @@
 
     <!-- CSS  -->
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-    <link href="css/materialize.css" type="text/css" rel="stylesheet" media="screen,projection"/>
-    <link href="css/style.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+    <link href="css/materialize.css" type="text/css" rel="stylesheet"/>
+    <link href="css/style.css" type="text/css" rel="stylesheet"/>
 
     <!--balise pour les partages sur les réseaux sociaux-->
     <!--titre lors du partage sur les réseaux sociaux-->
@@ -25,7 +25,7 @@
     <header class="z-depth-5">
         <nav class="teal lighten-2">
             <article class="nav-wrapper container">
-                <a id="logo-container" href="#" class="brand-logo"><img style="height: 55px;" src="./images/logoEcoEats.jpg" alt="logo Eco-eats"></a>
+                <a id="logo-container-dt" href="#" class="brand-logo"><img style="height: 55px;" src="./images/logoEcoEats.jpg" alt="logo Eco-eats"></a>
                 <ul class="right hide-on-med-and-down">
                     <li><a href="#about">&Agrave; propos</a></li>
                     <li><a href="#menu">Nos plats</a></li>
@@ -34,7 +34,7 @@
                 </ul>
 
                 <ul id="nav-mobile" class="sidenav">
-                    <a id="logo-container" href="#" class="brand-logo"><img style="height: 55px;" src="./images/logoEcoEats.jpg" alt="logo Eco-eats"></a>
+                    <li><a id="logo-container" href="#" class="brand-logo"><img style="height: 55px;" src="./images/logoEcoEats.jpg" alt="logo Eco-eats"></a></li>
                     <li><a href="#about">&Agrave; propos</a></li>
                     <li><a href="#menu">Nos plats</a></li>
                     <li><a href="#services">Nos services</a></li>
@@ -107,15 +107,16 @@
         
       </section>
 
-      <section id="menu" style="height: 100%;">
+      <section id="menu">
         <ul class="carousel carousel-slider">
             <li class="carousel-item">
                 <a href="#!">
                     <ul class="teal-text" style="font-size: x-large;">
                         <li>pâtes à la provençale</li>
                         <li>Prix : 8.00€</li>
-                    </ul>      
-                    <img class="responsive-img"  src="./images/pates-provencale.jpg" alt="pâtes à la provençale">
+                        <li><img class="responsive-img" src="./images/pates-provencale.jpg" alt="pâtes à la provençale"></li>
+                    </ul>
+                    
                 </a>
             </li>
             <li class="carousel-item">
@@ -123,10 +124,8 @@
                     <ul class="teal-text" style="font-size: x-large;">
                         <li>poêlée de légumes</li>
                         <li>Prix : 6.50€</li>
+                        <li><img class="responsive-img" src="./images/poele-legumes.jpg" alt="Poêlée de légumes"></li>
                     </ul>
-                </a>
-                <a href="#!">
-                    <img class="responsive-img" src="./images/poele-legumes.jpg" alt="Poêlée de légumes">
                 </a>
             </li>
             <li class="carousel-item">
@@ -134,8 +133,8 @@
                     <ul class="teal-text" style="font-size: x-large;">
                         <li>poulet au curry</li>
                         <li>Prix : 9,20€</li>
+                        <li><img class="responsive-img"  src="./images/poulet-curry.jpg" alt="Poulet au curry"></li>
                     </ul> 
-                    <img class="responsive-img"  src="./images/poulet-curry.jpg" alt="Poulet au curry">
                 </a>
             </li>
             <li class="carousel-item">
@@ -143,8 +142,8 @@
                     <ul class="teal-text" style="font-size: x-large;">
                         <li>salade fraicheur</li>
                         <li>Prix : 6.80€</li>
+                        <li><img class="responsive-img"  src="./images/salad-fraicheur.jpg" alt="Salade fraicheur"></li>
                     </ul> 
-                    <img class="responsive-img"  src="./images/salad-fraicheur.jpg" alt="Salade fraicheur">
                 </a>
             </li>
             <li class="carousel-item">
@@ -152,8 +151,8 @@
                     <ul class="teal-text" style="font-size: x-large;">
                         <li>soupe vegan</li>
                         <li>Prix : 11€</li>
-                    </ul> 
-                    <img class="responsive-img"  src="./images/soupe-vegan.jpg" alt="Soupe vegan">
+                        <li><img class="responsive-img"  src="./images/soupe-vegan.jpg" alt="Soupe vegan"></li>
+                    </ul>
                 </a>
             </li>
         </ul>
