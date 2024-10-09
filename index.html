@@ -2,7 +2,7 @@
 <html lang="fr">
 <head>
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
-    <meta name="viewport" content="width=device-width, initial-scale=1"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
     <title>Eco-eats</title>
 
     <!-- CSS  -->
@@ -22,27 +22,31 @@
 
 </head>
 <body>
-    <nav class="teal" role="navigation">
-        <article class="nav-wrapper container">
-            <a id="logo-container" href="#" class="brand-logo"><img style="height: 55px;" src="./images/logoEcoEats.jpg" alt="logo Eco-eats"></a>
+    <header class="z-depth-5">
+        <nav class="teal lighten-2">
+            <article class="nav-wrapper container">
+                <a id="logo-container" href="#" class="brand-logo"><img style="height: 55px;" src="./images/logoEcoEats.jpg" alt="logo Eco-eats"></a>
                 <ul class="right hide-on-med-and-down">
                     <li><a href="#about">&Agrave; propos</a></li>
                     <li><a href="#menu">Nos plats</a></li>
                     <li><a href="#services">Nos services</a></li>
                     <li><a href="#contact">Contact</a></li>
-                 </ul>
+                </ul>
 
                 <ul id="nav-mobile" class="sidenav">
+                    <a id="logo-container" href="#" class="brand-logo"><img style="height: 55px;" src="./images/logoEcoEats.jpg" alt="logo Eco-eats"></a>
                     <li><a href="#about">&Agrave; propos</a></li>
                     <li><a href="#menu">Nos plats</a></li>
                     <li><a href="#services">Nos services</a></li>
                     <li><a href="#contact">Contact</a></li>
                 </ul>
                 <a href="#" data-target="nav-mobile" class="sidenav-trigger"><i class="material-icons">menu</i></a>
-        </article>
-    </nav>
+            </article>
+        </nav>
+    </header>
+    
 
-    <section id="index-banner" class="parallax-container">
+    <section style="margin-top: 2px;" id="index-banner" class="parallax-container">
         <article class="section no-pad-bot">
             <div class="container">
                 
@@ -65,7 +69,7 @@
                         <h2 class="center brown-text"><i class="material-icons">computer</i></h2>
                         <h5 class="center">Commandez-en ligne</h5>
             
-                        <p class="light">Commandez vos repas bio préférés en toute simplicité sur notre site. Quelques clics suffisent pour sélectionner vos plats et choisir l'horaire de livraison qui vous convient le mieux. Nous livrons où vous le souhaitez.</p>
+                        <p class="light">Commandez vos repas bio préférés en toute simplicité sur notre site. Quelques clics suffisent pour sélectionner vos plats et choisir l'horaire de livraison qui vous convient le mieux. Nous livrons dans toute la ville.</p>
                     </aside>
                 </article>
     
@@ -83,7 +87,7 @@
                 <h2 class="center brown-text"><i class="material-icons">public</i></h2>
                 <h5 class="center">Notre engagement pour la planète</h5>
     
-                <p class="light">Nous croyons en une alimentation saine et respectueuse de l'environnement. C'est pourquoi nous privilégions les producteurs locaux et leurs produits de saison. Pour réduire notre empreinte carbone, nous effectuons nos livraisons à vélo dans un rayon de 15 km autour de notre cuisine. En choisissant nos repas, vous contribuez à soutenir l'agriculture locale et à préserver notre planète.</p>
+                <p class="light">Nous croyons en une alimentation saine et respectueuse de l'environnement. C'est pourquoi nous privilégions les producteurs locaux et leurs produits de saison. Nous limitons au maximum les emballages et favorisons les produits recyclés. Pour réduire notre empreinte carbone, nous effectuons nos livraisons à vélo dans un rayon de 15 km autour de notre cuisine. En choisissant nos repas, vous contribuez à soutenir l'agriculture locale et à préserver notre planète.</p>
               </div>
             </div>
           </section>
@@ -91,23 +95,23 @@
     </div>
 
 
-    <div id="about" class="parallax-container valign-wrapper">
-        <div class="section no-pad-bot">
-          <div class="container">
-            <div class="row center">
-              <h2 class="header col s12 light">A propos de nous :</h2>
-              <p style="font-size: x-large;">"Régalez-vous sans culpabiliser ! Nous vous proposons une sélection de plats bio variés et équilibrés, cuisinés avec des ingrédients frais et de saison. Nos chefs mettent tout leur savoir-faire pour vous concocter des recettes savoureuses, adaptées à tous les goûts. Commandez en ligne et savourez un repas sain et gourmand, livré à l'heure qui vous convient."</p>
-            </div>
-          </div>
-        </div>
-        <div class="parallax"><img src="./images/platter.jpg" alt="Exemple d\'entrée"></div>
-      </div>
+    
 
-      <section id="menu">
+      <section >
+        <article class="bg-image container-fluid center white-text">
+          
+          <h5 class="s12">A propos de nous</h5>
+          
+          <p class="txt-about s12 m4 l4">"Régalez-vous sans culpabiliser ! Nous vous proposons une sélection de plats bio variés et équilibrés, cuisinés avec des ingrédients frais et de saison. Nos chefs mettent tout leur savoir-faire pour vous concocter des recettes savoureuses, adaptées à tous les goûts. Commandez en ligne et savourez un repas sain et gourmand, livré à l'heure qui vous convient."</p>
+        </article>
+        
+      </section>
+
+      <section id="menu" style="height: 100%;">
         <ul class="carousel carousel-slider">
             <li class="carousel-item">
                 <a href="#!">
-                    <ul class="teal white-text" style="font-size: x-large; margin-right: 70%;">
+                    <ul class="teal-text" style="font-size: x-large;">
                         <li>pâtes à la provençale</li>
                         <li>Prix : 8.00€</li>
                     </ul>      
@@ -116,7 +120,7 @@
             </li>
             <li class="carousel-item">
                 <a href="#!">
-                    <ul class="teal white-text" style="font-size: x-large; margin-right: 70%;">
+                    <ul class="teal-text" style="font-size: x-large;">
                         <li>poêlée de légumes</li>
                         <li>Prix : 6.50€</li>
                     </ul>
@@ -127,7 +131,7 @@
             </li>
             <li class="carousel-item">
                 <a href="#!">
-                    <ul class="teal white-text" style="font-size: x-large; margin-right: 70%;">
+                    <ul class="teal-text" style="font-size: x-large;">
                         <li>poulet au curry</li>
                         <li>Prix : 9,20€</li>
                     </ul> 
@@ -136,7 +140,7 @@
             </li>
             <li class="carousel-item">
                 <a href="#!">
-                    <ul class="teal white-text" style="font-size: x-large; margin-right: 70%;">
+                    <ul class="teal-text" style="font-size: x-large;">
                         <li>salade fraicheur</li>
                         <li>Prix : 6.80€</li>
                     </ul> 
@@ -145,7 +149,7 @@
             </li>
             <li class="carousel-item">
                 <a href="#!">
-                    <ul class="teal white-text" style="font-size: x-large; margin-right: 70%;">
+                    <ul class="teal-text" style="font-size: x-large;">
                         <li>soupe vegan</li>
                         <li>Prix : 11€</li>
                     </ul> 
@@ -156,53 +160,101 @@
       </section>
   
 
-  <div class="container">
-    <div class="section">
+  <section id="contact" class="container">
+    <section class="section">
 
-      <div class="row">
-        <div class="col s12 center">
-          <h3><i class="mdi-content-send brown-text"></i></h3>
-          <h4>Contact Us</h4>
-          <p class="left-align light">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam scelerisque id nunc nec volutpat. Etiam pellentesque tristique arcu, non consequat magna fermentum ac. Cras ut ultricies eros. Maecenas eros justo, ullamcorper a sapien id, viverra ultrices eros. Morbi sem neque, posuere et pretium eget, bibendum sollicitudin lacus. Aliquam eleifend sollicitudin diam, eu mattis nisl maximus sed. Nulla imperdiet semper molestie. Morbi massa odio, condimentum sed ipsum ac, gravida ultrices erat. Nullam eget dignissim mauris, non tristique erat. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae;</p>
-        </div>
-      </div>
+      <article class="row">
+        <aside class="col s12 center">
+            <h2 class="mdi-content-send brown-text">Nous contacter</h2>
+            <form class="col s12">
+                <article class="row">
+                  <address class="input-field col s6">
+                    <input name="first_name" placeholder="Jean-Claude" id="first_name" type="text" class="validate">
+                    <label for="first_name">Prénom</label>
+                  </address>
+                  <address class="input-field col s6">
+                    <input name="last_name" placeholder="Dusse" id="last_name" type="text" class="validate">
+                    <label for="last_name">Nom</label>
+                  </address>
+                </article>
+                <article class="row">
+                  <address class="input-field col s12">
+                    <input id="email" name="email" placeholder="jc.dusse@splendide.com" type="email" class="validate">
+                    <label for="email">Email</label>
+                  </address>
+                </article>
+                <article class="row">
+                    <address class="input-field col s12">
+                      <input id="object" name="object" placeholder="objet du mail" type="text" class="validate">
+                      <label for="object">Objet</label>
+                    </address>
+                  </article>
+                  <article class="row">
+                    <i class="material-icons prefix">mode_edit</i>
+                    <label for="content">Votre message</label>
+                    <textarea name="content" id="content" class="materialize-textarea"></textarea>
+                    
+                    <button class="btn waves-effect waves-light" type="submit" name="action">Envoyer
+                        <i class="material-icons right">send</i>
+                    </button>
+        
+                  </article>
+                
+              </form>
+        </aside>
+      </article>
 
-    </div>
-  </div>
+    </section>
+  </section>
 
 
-  <footer class="page-footer teal">
+  <footer class="page-footer teal lighten-2 z-depth-3">
     <div class="container">
       <div class="row">
         <div class="col l6 s12">
-          <h5 class="white-text">Company Bio</h5>
-          <p class="grey-text text-lighten-4">We are a team of college students working on this project like it's our full time job. Any amount would help support and continue development on this project and is greatly appreciated.</p>
+          <h5 class="white-text">Eco-eats</h5>
+          <p class="grey-text text-lighten-4">Parce qu'une alimentation saine et respectueuse de l'environnement n'est pas un luxe, mais une nécessité.</p>
+          <ul>
+            <li>Livrés à vélo dans toute la ville.</li>
+            <li>100% bio, 100% local, 100% zéro déchet.</li>
+            <li>Passez votre commande sur notre site.</li>
+          </ul>
 
 
         </div>
         <div class="col l3 s12">
           <h5 class="white-text">Settings</h5>
           <ul>
-            <li><a class="white-text" href="#!">Link 1</a></li>
-            <li><a class="white-text" href="#!">Link 2</a></li>
-            <li><a class="white-text" href="#!">Link 3</a></li>
-            <li><a class="white-text" href="#!">Link 4</a></li>
+            <li><a class="white-text" href="./mentions-legales.html">Mention légales</a></li>
+            <li>
+                <img class="logo-reseaux" src="./images/Facebook.png" alt="logo Facebook">
+                <a class="white-text" href="#!">Facebook</a>
+            </li>
+            <li>
+                <img class="logo-reseaux" src="./images/twitter.png" alt="logo Twitter">
+                <a class="white-text" href="#!">Twitter</a>
+            </li>
+           
           </ul>
         </div>
         <div class="col l3 s12">
           <h5 class="white-text">Connect</h5>
           <ul>
-            <li><a class="white-text" href="#!">Link 1</a></li>
-            <li><a class="white-text" href="#!">Link 2</a></li>
-            <li><a class="white-text" href="#!">Link 3</a></li>
-            <li><a class="white-text" href="#!">Link 4</a></li>
+            <li>
+                <img class="logo-reseaux" src="./images/instagram.png" alt="logo Instagram">
+                <a class="white-text" href="#!">Instagram</a>
+            </li>
+            <li>
+                <img class="logo-reseaux" src="./images/linkedin.png" alt="logo Linkedin">
+                <a class="white-text" href="#!">Linkedin</a></li>
           </ul>
         </div>
       </div>
     </div>
-    <div class="footer-copyright">
+    <div class="footer-copyright teal lighten-2">
       <div class="container">
-      Made by <a class="brown-text text-lighten-3" href="http://materializecss.com">Materialize</a>
+      Made by <a class="brown-text text-lighten-3" href="https://portfolio.syllac.fr/">S.Lacroix</a>
+      <img class="logo" style="width: 25px;" src="./images/Logo.webp" alt="logo du développeur">
       </div>
     </div>
   </footer>

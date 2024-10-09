@@ -12336,14 +12336,15 @@ $jscomp.polyfill = function (e, r, p, m) {
   Range.init($('input[type=range]'));
 })(cash, M.anime);
 
+const big = document.querySelector('.carousel-slider');
+M.Carousel.init(big,{});
+
 document.addEventListener('DOMContentLoaded', function() {
   var elems = document.querySelectorAll('.carousel');
-  var instances = M.Carousel.init(elems, options);
+  var instances = M.Carousel.init(elems);
 });
 
 $(document).ready(function(){
   $('.carousel').carousel();
 });
  
-const big = document.querySelector('.carousel-slider');
-M.Carousel.init(big,{});

@@ -6,6 +6,9 @@
  * Made By MaterializeCSS.com
  */
 
+.logo-reseaux{
+  width: 15px;
+}
 nav ul a,
 nav .brand-logo {
   color: #444;
@@ -54,4 +57,19 @@ p {
 
 footer.page-footer {
   margin: 0;
+}
+
+.bg-image{
+  background-image: url(../images/platter.jpg);
+  background-size: cover;
+  height: 450px;
+  display: flex;
+  flex-direction: column;
+  vertical-align: middle;
+}
+
+.txt-about{
+  display: block;
+  margin: auto;
+  font-size: x-large;
 }
